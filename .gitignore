@@ -39,4 +39,4 @@ run/
 repo/
 !**/src/**/repo/
 .devenv
-libs/adpother-9.1.7.1.jar
+libs/
