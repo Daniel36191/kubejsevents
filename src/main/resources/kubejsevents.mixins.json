@@ -1,0 +1,11 @@
+{
+    "required": true,
+    "package": "com.daniel36191.mixins",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "kubejsevents.refmap.json",
+    "client": [],
+    "mixins": [
+        "BlockEntityMixin"
+    ],
+    "server": []
+}

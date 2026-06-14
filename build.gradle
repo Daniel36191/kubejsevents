@@ -66,14 +66,14 @@ neoForge {
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
-            systemProperty 'neoforge.enabledMixins', 'adpotherkubejs.mixins.json'
+            systemProperty 'neoforge.enabledMixins', 'kubejsevents.mixins.json'
         }
 
         server {
             server()
             programArgument '--nogui'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
-            systemProperty 'neoforge.enabledMixins', 'adpotherkubejs.mixins.json'
+            systemProperty 'neoforge.enabledMixins', 'kubejsevents.mixins.json'
         }
 
         // This run config launches GameTestServer and runs all registered gametests, then exits.
@@ -130,10 +130,6 @@ configurations {
 
 dependencies {
     compileOnly "dev.latvian.mods:kubejs-neoforge:${kubejs_version}"
-
-    // AdPother — flatDir from libs/ folder
-    // Drop AdPother-9.1.7.1.jar into libs/ and rename or match the pattern below
-    implementation ":adpother:${adpother_version}"
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

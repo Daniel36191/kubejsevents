@@ -1,4 +1,4 @@
-package com.daniel36191.adpotherkubejs;
+package com.daniel36191.kubejsevents;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
@@ -11,7 +11,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import java.util.Map;
 
-public class AdPotherBindings {
+public class KubeJSEventsBindings {
 
     // ==================== POLLUTANT QUERIES (reflection-safe) ====================
 
