@@ -5,7 +5,8 @@
     "refmap": "kubejsevents.refmap.json",
     "client": [],
     "mixins": [
-        "BlockEntityMixin"
+        "BlockEntityMixin",
+        "FluidTankMixin"
     ],
     "server": []
 }
